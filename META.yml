@@ -1,0 +1,46 @@
+---
+abstract: 'Easily look up and retrieve distributions from the CPAN'
+author:
+  - 'Chris Weyl <cweyl@alumni.drew.edu>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::Moose: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: lgpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CPAN-Easy
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+provides:
+  CPAN::Easy:
+    file: lib/CPAN/Easy.pm
+    version: 0.001_01
+requires:
+  CPAN::DistnameInfo: 0
+  File::HomeDir: 0
+  File::Slurp: 0
+  IPC::System::Simple: 0
+  Moose: 0
+  MooseX::ClassAttribute: 0
+  MooseX::Types::Moose: 0
+  MooseX::Types::Path::Class: 0
+  MooseX::Types::URI: 0
+  Path::Class: 0
+  URI::Fetch: 0
+  YAML::XS: 0
+  autodie: 0
+  namespace::autoclean: 0
+resources:
+  homepage: http://github.com/RsrchBoy/cpan-easy/tree
+  license: http://opensource.org/licenses/lgpl-license.php
+  repository: git://github.com/RsrchBoy/cpan-easy.git
+version: 0.001_01
